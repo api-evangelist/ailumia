@@ -1,7 +1,24 @@
 aid: ailumia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ailumia.png
 name: Ailumia
-description: Ailumia is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Ailumia is an AI-driven retail operations platform that helps brands and sellers grow
+  on the world's most valuable marketplaces, with a focus on Amazon. The platform applies artificial
+  intelligence across the retail workflow to manage marketplace sales, inventory, supply chain, and
+  finances, giving operators data-driven guidance and automation to navigate the challenges of modern
+  e-commerce. Founded in 2019 and headquartered in Taipei, Taiwan, Ailumia is backed by 500 Global.
+  This API Evangelist profile was surfaced from the 500 Global portfolio; enrichment probing found a
+  Cloudflare-fronted WordPress marketing presence but no public developer, API, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/ailumia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +31,14 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- E-Commerce
+- Retail
+- Marketplaces
+- Amazon
+- Inventory
+- Supply Chain
+- Artificial Intelligence
+- Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ailumia-domain-security.yml
 - type: Website
   url: https://ailumia.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
