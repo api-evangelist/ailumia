@@ -67,6 +67,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://ailumia.com/pricing/
+- type: Plans
+  url: plans/ailumia-plans-pricing.yml
 - url: https://ailumia.com/blog/
   type: Blog
 - url: https://ailumia.com/feed/
