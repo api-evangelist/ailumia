@@ -1,0 +1,62 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://ailumia.com/pricing/
+sources:
+- https://ailumia.com/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Amazon seller toolkit SaaS with annual/monthly toggle; 30-Day Free Trial mentioned. No API pricing
+  stated.
+plan_count: 6
+currency: USD
+plans:
+- name: Starter (Annual)
+  price_text: $33.25 /Month
+  price: 33.25
+  currency: USD
+  period: month
+  included_quota: 1 Regions, 1 Marketplaces, 1 Users, 1,000 orders/ month
+- name: Plus (Annual)
+  price_text: $108.25 /Month
+  price: 108.25
+  currency: USD
+  period: month
+  included_quota: 3 Regions, 10 Marketplaces, 3 Users, 3,000 orders/ month
+- name: Pro (Annual)
+  price_text: $208.25 /Month
+  price: 208.25
+  currency: USD
+  period: month
+  included_quota: 10 Regions, 30 Marketplaces, 10 Users, 10,000 orders/ month
+- name: Starter (Monthly)
+  price_text: $39 /Month
+  price: 39
+  currency: USD
+  period: month
+  included_quota: 1 Regions, 1 Marketplaces, 1 Users, 1,000 orders/ month
+- name: Plus (Monthly)
+  price_text: $149 /Month
+  price: 149
+  currency: USD
+  period: month
+  included_quota: 3 Regions, 10 Marketplaces, 3 Users, 3,000 orders/ month
+- name: Pro (Monthly)
+  price_text: $299 /Month
+  price: 299
+  currency: USD
+  period: month
+  included_quota: 10 Regions, 30 Marketplaces, 10 Users, 10,000 orders/ month
+rate_limit_statements:
+- 1,000 orders/ month
+- 3,000 orders/ month
+- 10,000 orders/ month
